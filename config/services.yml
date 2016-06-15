@@ -1,0 +1,5 @@
+services:
+    dmzx.sortingonlinelist.listener:
+        class: dmzx\sortingonlinelist\event\listener
+        tags:
+            - { name: event.listener }

@@ -1,0 +1,35 @@
+{
+	"name": "dmzx/sortingonlinelist",
+	"type": "phpbb-extension",
+	"description": "Sorting online members on session time",
+	"homepage": "http://www.dmzx-web.net",
+	"version": "1.0.0",
+	"time": "2016-06-15",
+	"license": "GPL-2.0",
+	"authors": [
+		{
+		"name": "dmzx",
+		"email": "info@dmzx-web.net",
+		"homepage": "http://www.dmzx-web.net",
+		"role": "Extension Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3",
+		"composer/installers": "~1.0"
+	},
+	"require-dev": {
+		"phpbb/epv": "dev-master"
+	},
+	"extra": {
+		"display-name": "Sorting online list",
+		"soft-require": {
+			"phpbb/phpbb": ">=3.1.0,<3.3.0@dev"
+		},
+		"version-check": {
+			"host": "www.dmzx-web.net",
+			"directory": "/versions",
+			"filename": "sortingonlinelist_version.json"
+		}
+	}
+}
